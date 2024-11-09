@@ -29,10 +29,10 @@
 </br>
 #### &nbsp;&nbsp; 2. 검색
 &nbsp;&nbsp;&nbsp;&nbsp; • 게시글 검색 시에 </br>
-&nbsp;&nbsp;&nbsp;&nbsp; • 게시글 작성시 CKEditor 를 통해서 텍스트 작성 외 다양한 방식으로 작성할 수 있게 했습니다.</br>
 &nbsp;&nbsp;&nbsp;&nbsp; • </br>
+</br>
 #### &nbsp;&nbsp; 3, 글 작성
-&nbsp;&nbsp;&nbsp;&nbsp; • ㅂㅂ</br>
+&nbsp;&nbsp;&nbsp;&nbsp; • 게시글 작성시 CKEditor 를 통해서 텍스트 작성 외 다양한 방식으로 작성할 수 있게 했습니다.</br>
 </br></br>
 
 
