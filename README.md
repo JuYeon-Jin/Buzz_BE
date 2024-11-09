@@ -23,15 +23,15 @@
 </br>
 
 ### ⚙️ 주요 기능
-### &nbsp;&nbsp; 1. 회원가입 & 로그인
+#### &nbsp;&nbsp; 1. 회원가입 & 로그인
 &nbsp;&nbsp;&nbsp;&nbsp; • 보안 위해 bcrypt로 암호화해서 비밀번호 저장합니다.</br>
 &nbsp;&nbsp;&nbsp;&nbsp; • JWT 인증 방식을 사용하여, 헤더를 통해 인증 권한을 체크합니다.</br>
 </br>
-### &nbsp;&nbsp; 2. 검색
+#### &nbsp;&nbsp; 2. 검색
 &nbsp;&nbsp;&nbsp;&nbsp; • 게시글 검색 시에 </br>
 &nbsp;&nbsp;&nbsp;&nbsp; • 게시글 작성시 CKEditor 를 통해서 텍스트 작성 외 다양한 방식으로 작성할 수 있게 했습니다.</br>
 &nbsp;&nbsp;&nbsp;&nbsp; • </br>
-### &nbsp;&nbsp; ㅂㅂ
+#### &nbsp;&nbsp; 3, 글 작성
 &nbsp;&nbsp;&nbsp;&nbsp; • ㅂㅂ</br>
 </br></br>
 
