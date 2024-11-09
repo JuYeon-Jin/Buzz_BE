@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.buzz.community.dao.user.UserDAO">
+
+    <insert id="join" parameterType="com.buzz.community.dto.user.req.RequestJoinDTO">
+        INSERT INTO users (user_id, username, password, name)
+        VALUES (#{userId}, #{username}, #{bCryptPassword}, #{name});
+    </insert>
+
+    <select id="login" parameterType="java.lang.String" resultType="com.buzz.community.dto.user.rsp.UserInfoDTO">
+        SELECT user_id, name, password AS bCryptPassword
+        FROM users
+        WHERE username = #{username};
+    </select>
+
+    <select id="checkUsernameExists" parameterType="java.lang.String" resultType="java.lang.Boolean">
+        SELECT EXISTS (
+            SELECT 1
+            FROM users
+            WHERE username = #{username}
+        )
+    </select>
+
+</mapper>
