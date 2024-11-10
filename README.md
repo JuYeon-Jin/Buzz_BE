@@ -28,11 +28,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp; • JWT 인증 방식을 사용하여, 헤더를 통해 인증 권한을 체크합니다.</br>
 </br>
 #### &nbsp;&nbsp; 2. 검색
-&nbsp;&nbsp;&nbsp;&nbsp; • 게시글 검색 시에 </br>
+&nbsp;&nbsp;&nbsp;&nbsp; • 제목, 작성자 이름, 본문 내용을 기준으로 게시글을 검색할 수 있습니다. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 또한 카테고리나 작성 날짜를 필터로 설정하여 검색을 좁힐 수 있습니다. </br>
+&nbsp;&nbsp;&nbsp;&nbsp; • 게시글은 조회수 기준으로 오름차순 또는 내림차순 정렬 가능하며, 원하는 정렬 기준을 사용자가 선택할 수 있습니다.</br>
 &nbsp;&nbsp;&nbsp;&nbsp; • </br>
 </br>
 #### &nbsp;&nbsp; 3, 글 작성
-&nbsp;&nbsp;&nbsp;&nbsp; • 게시글 작성시 CKEditor 를 통해서 텍스트 작성 외 다양한 방식으로 작성할 수 있게 했습니다.</br>
+&nbsp;&nbsp;&nbsp;&nbsp; • CKEditor를 통해 글 내용을 작성하며, 글 작성 시 필요한 파일을 첨부할 수 있습니다. 첨부 파일은 서버에 저장됩니다.</br>
 </br></br>
 
 
